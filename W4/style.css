@@ -1,0 +1,234 @@
+/* ---------- Reset & base ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  color: #1f2933;
+  background-color: #f7f8fa;
+}
+
+h1, h2, h3 {
+  line-height: 1.25;
+  margin-top: 0;
+}
+
+a {
+  color: #2f6feb;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 6px;
+}
+
+
+/* ---------- Header ---------- */
+
+header {
+  background-color: #101828;
+  color: #f7f8fa;
+  text-align: center;
+  padding: 40px 20px 24px;
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+}
+
+header .tagline {
+  color: #9aa5b1;
+  margin-top: 4px;
+}
+
+header img {
+  margin: 20px auto;
+}
+
+.build-guide-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #7fb3ff;
+}
+
+nav {
+  margin-top: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 24px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: #f7f8fa;
+  font-size: 0.95rem;
+  border-bottom: 1px solid transparent;
+}
+
+nav a:hover,
+nav a:focus {
+  border-bottom-color: #7fb3ff;
+  text-decoration: none;
+}
+
+
+/* ---------- Main content ---------- */
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  background-color: #ffffff;
+  border: 1px solid #e4e7eb;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 24px;
+}
+
+section h2 {
+  color: #101828;
+  border-bottom: 2px solid #2f6feb;
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 16px;
+}
+
+.spec-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.spec-list li {
+  padding: 6px 0;
+  border-bottom: 1px dashed #e4e7eb;
+}
+
+.spec-list li:last-child {
+  border-bottom: none;
+}
+
+.highlight {
+  color: #d93025;
+  font-weight: 600;
+}
+
+
+/* ---------- Form ---------- */
+
+form label {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #cbd2d9;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+form input[type="radio"] {
+  margin-right: 4px;
+}
+
+button {
+  background-color: #101828;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #2f6feb;
+}
+
+#form-confirmation {
+  margin-top: 12px;
+  color: #1a7f37;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/* ---------- Notification ---------- */
+
+.notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2f6feb;
+  color: #ffffff;
+  padding: 14px 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.notification p {
+  margin: 0;
+}
+
+
+/* ---------- Aside & footer ---------- */
+
+aside {
+  max-width: 760px;
+  margin: 0 auto 24px;
+  padding: 0 20px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  color: #9aa5b1;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 480px) {
+  header {
+    padding: 28px 16px 20px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}

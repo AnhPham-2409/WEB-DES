@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design and Programing</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-header">HTML Preview</h1>
+            <a href="https://drive.google.com/file/d/1MJKt9iSFPtYvTrQKjxbyUxyQv1jC7SWL/view"> Click me!</a>
+            <img src="https://nguyencongpc.vn/media/product/27082-pc---o-hoa-intel-core-i9-12900kf-ram-32g-vga-rtx-3060-12g.jpg" 
+            alt="Bộ PC đồ họa Intel Core Ultra 5 245K, RAM 32G DDR5, VGA RTX 5050 8GB"
+            width="300px">
+        <nav>
+            <ul>
+                <li><a href="#cpu">CPU Intel Core Ultra 5 245KF (14 Nhân 14 Luồng, Arrow Lake-S)</a></li>
+                <li><a href="#vga">VGA Gigabyte RTX 5050 WINDFORCE OC 8GB V2 (N5050WF2OC-8GDV2)</a></li>
+                <li>RAM CORSAIR VENGEANCE RGB 32GB (2x16GB) DDR5 bus 6000MHz Black</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2 class="style" style="color: rgb(255, 80, 80);" id="header">CPU</h2>
+            <p class="style">
+                Loại sản phẩm CPU Thương hiệu INTEL Model Core Ultra 5 245KF Socket Intel Socket 1851 Công nghệ 3nm Xung nhịp cơ sở P-core 4.2 GHz Xung nhịp Turbo P-core 5.2 GHz Xung nhịp E-core 3.6 GHz up to 4.6 GHz
+            </p>
+        <section id="vga">
+            <h2>VGA</h2>
+            <p>
+               🌟 Điểm nổi bật của sản phẩmKiến trúc mới: Sử dụng kiến trúc NVIDIA Blackwell tiên tiến.Hiệu năng mạnh mẽ: Sở hữu 2.560 nhân CUDA cùng xung nhịp ép xung sẵn 2587 MHz (cao hơn bản gốc của hãng là 2572 MHz).Bộ nhớ nâng cấp: 8GB GDDR6 tốc độ 20 Gbps, băng thông 128-bit.Công nghệ tương lai: Hỗ trợ cổng xuất hình DisplayPort 2.1b mới nhất và công nghệ siêu lấy mẫu NVIDIA DLSS 4.Tiết kiệm điện: Chỉ yêu cầu nguồn công suất thực từ 550W và dùng 1 cổng nguồn 8-pin truyền thống, rất dễ nâng cấp.🎯 Ứng dụng phù hợpChơi game Full HD mượt mà với FPS cao (Esports, AAA cấu hình phù hợp).Livestream, dựng video (Edit Video), thiết kế đồ họa.Chạy các tác vụ trí tuệ nhân tạo (AI) cơ bản. 
+            </p>
+    </main>
+    <p class="highlight">
+        <strong>Semantic importance</strong> Warnings, critical notes, or key takeaways that screen readers should emphasize.
+    </p>
+    <p>
+        <b>Stylistic offset</b> Keywords in a summary, product names, or text meant to draw attention without adding extra importance.
+    </p>
+
+<section>
+  <h2>PC Order Form</h2>
+
+  <form action="/submit" method="POST">
+    <p>
+      <label for="fullname">Full Name:</label><br>
+      <input id="fullname" name="fullname" type="text" required>
+    </p>
+
+    <p>
+      <label for="budget">Budget ($):</label><br>
+      <input id="budget" name="budget" type="number" min="300" required>
+    </p>
+
+    <p>
+      <label>Usage:</label><br>
+      <input id="gaming" name="usage" type="radio" value="gaming" checked>
+      <label for="gaming">Gaming</label>
+      <input id="office" name="usage" type="radio" value="office">
+      <label for="office">Office</label>
+    </p>
+
+    <p>
+      <label for="city">City:</label><br>
+      <select id="city" name="city">
+        <option value="hn">Hanoi</option>
+        <option value="hcm">Ho Chi Minh City</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="notes">Notes:</label><br>
+      <textarea id="notes" name="notes" rows="3"></textarea>
+    </p>
+
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+
+
+    <aside>
+    <h3>Quick Tip</h3>
+    <p>I'm broke</p>
+  </aside>
+
+  <!-- Landmark: <footer> -->
+  <footer id="footer">
+    <p>&copy; 2026 Pumpalapum. All rights reserved.</p>
+  </footer>
+</body>
+</html>

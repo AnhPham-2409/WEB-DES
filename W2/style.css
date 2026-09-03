@@ -1,0 +1,15 @@
+h1 {
+    color: darkviolet;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.highlight:hover {
+    font-size: xx-large;
+    color: blue;
+}
+
+#main-header {
+    color: brown;
+}

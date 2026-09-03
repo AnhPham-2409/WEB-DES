@@ -1,0 +1,18 @@
+h2:hover {
+    color: #608cb4;
+    font-family: monospace;
+    font-size: xx-large;
+
+}
+
+.style {
+    font-size: larger;
+    color: rgb(19, 201, 125);
+}
+
+#header{color: darksalmon;}
+
+section {
+    font-family: monospace;
+    color: rgb(243, 142, 167);
+}
