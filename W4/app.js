@@ -45,7 +45,6 @@
 // console.log(card.textContent);
 
 
-/////
 
 let noti = document.createElement("div");
 document.body.appendChild(noti);
@@ -55,7 +54,6 @@ noti.appendChild(message);
 
 noti.style.backgroundColor = "blue";
 noti.style.padding = "20px";
-////////
 
 
 const form = document.querySelector("form");

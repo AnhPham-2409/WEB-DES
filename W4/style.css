@@ -1,4 +1,4 @@
-/* ---------- Reset & base ---------- */
+
 
 * {
   box-sizing: border-box;
@@ -34,7 +34,6 @@ img {
 }
 
 
-/* ---------- Header ---------- */
 
 header {
   background-color: #101828;
@@ -90,7 +89,6 @@ nav a:focus {
 }
 
 
-/* ---------- Main content ---------- */
 
 main {
   max-width: 760px;
@@ -135,7 +133,6 @@ section h2 {
 }
 
 
-/* ---------- Form ---------- */
 
 form label {
   font-weight: 600;
@@ -185,7 +182,6 @@ button:focus {
 }
 
 
-/* ---------- Notification ---------- */
 
 .notification {
   position: fixed;
@@ -203,7 +199,6 @@ button:focus {
 }
 
 
-/* ---------- Aside & footer ---------- */
 
 aside {
   max-width: 760px;
@@ -220,8 +215,6 @@ footer {
   font-size: 0.9rem;
 }
 
-
-/* ---------- Responsive ---------- */
 
 @media (max-width: 480px) {
   header {
